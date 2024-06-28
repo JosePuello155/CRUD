@@ -1,7 +1,6 @@
 
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+body {
+    background-color: #e0f7fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,10 +10,10 @@ body{
 
 .form-container {
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
 }
 
 form {
@@ -24,34 +23,49 @@ form {
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+    margin-bottom: 25px;
+    color: #00796b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
-    color: #666;
+    margin-bottom: 8px;
+    color: #004d40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input, select {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #b2dfdb;
+    border-radius: 8px;
     box-sizing: border-box;
+
+}
+
+input:focus, select:focus {
+    border-color: #00796b;
+  
+
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #00796b;
     color: white;
-    padding: 10px;
+    padding: 12px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+button:hover {
+    background-color: #004d40;
+}
+
 
